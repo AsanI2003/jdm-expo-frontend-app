@@ -1,4 +1,4 @@
-# Logs
+git commit -m "Initial commit - JDM Expo Frontend"# Logs
 logs
 *.log
 npm-debug.log*
