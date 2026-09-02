@@ -14,9 +14,9 @@ function App() {
   const [orderSubmitting, setOrderSubmitting] = useState(false);
 
   
-  const VEHICLE_API = 'http://localhost:8080/api/v1/vehicles';
-  const MEDIA_API = 'http://localhost:8080/api/v1/media'; 
-  const ORDER_API = 'http://localhost:8080/api/v1/orders'; 
+  const VEHICLE_API = 'http://136.68.83.35/api/v1/vehicles';
+  const MEDIA_API = 'http://136.68.83.35/api/v1/media'; 
+  const ORDER_API = 'http://136.68.83.35/api/v1/orders'; 
 
   const fetchVehicles = async (currentPage) => {
     setLoading(true);
@@ -156,7 +156,7 @@ function App() {
           PREV
         </button>
         
-        <span>[ PAGE {page + 1} OF {totalPages || 1} ]</span>
+        <span>PAGE {page + 1} OF {totalPages || 1}</span>
         
         <button
           disabled={page >= totalPages - 1}
