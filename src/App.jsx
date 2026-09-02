@@ -78,16 +78,16 @@ function App() {
       });
 
       if (res.ok) {
-        alert('[ ORDER_PLACED_SUCCESSFULLY ]');
+        alert('ORDER PLACED SUCCESSFULLY, WE WILL CONTACT YOU SOON');
         setSelectedVehicle(null);
         setCustomerName('');
         setCustomerContact('');
       } else {
-        alert('[ ERROR: FAILED_TO_PLACE_ORDER ]');
+        alert('ERROR: FAILED TO PLACE ORDER');
       }
     } catch (err) {
       console.error("Order submission error:", err);
-      alert('[ ERROR: NETWORK_ISSUE ]');
+      alert('ERROR: NETWORK ISSUE');
     } finally {
       setOrderSubmitting(false);
     }
@@ -103,12 +103,12 @@ function App() {
       </div>
 
       {loading ? (
-        <div style={{ textAlign: 'center', marginTop: '4rem' }}>[ LOADING DATA... ]</div>
+        <div style={{ textAlign: 'center', marginTop: '4rem' }}>LOADING DATA... </div>
       ) : (
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: '2rem' }}>
           {vehicles.length === 0 ? (
             <div style={{ gridColumn: '1 / -1', textAlign: 'center', color: '#555', marginTop: '2rem' }}>
-               NO_AVAILABLE_VEHICLES_FOUND 
+               NO AVAILABLE VEHICLES FOUND 
             </div>
           ) : (
             vehicles.map((v, index) => (
@@ -119,7 +119,7 @@ function App() {
                   <img src={v.imageUrl} alt="Vehicle" style={{ width: '100%', height: '220px', objectFit: 'cover', borderBottom: '1px solid #333' }} />
                 ) : (
                   <div style={{ width: '100%', height: '220px', backgroundColor: '#222', display: 'flex', alignItems: 'center', justifyContent: 'center', borderBottom: '1px solid #333' }}>
-                     NO_IMAGE 
+                     NO IMAGE 
                   </div>
                 )}
                 
