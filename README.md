@@ -20,5 +20,5 @@ then run using npm run dev
 check http://localhost:5173/ for this Frontend
 
 make sure backend is running check these two repos for backend
-https://github.com/AsanI2003/jdm-expo-backend-platform
+https://github.com/AsanI2003/jdm-expo-backend-platform   <br>
 https://github.com/AsanI2003/jdm-expo-backend-services
