@@ -1,5 +1,5 @@
 # jdm-expo-frontend
-Frontend of jdm expo backend
+Frontend user interface for the JDM Expo platform, providing JDM vehicle browsing, reservation processing, and order tracking via the Spring Cloud API Gateway.
 
 
 * **Student Name:** A.G.Asan Indusara
