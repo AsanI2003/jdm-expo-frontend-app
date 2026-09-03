@@ -6,8 +6,7 @@ Frontend user interface for the JDM Expo platform, providing JDM vehicle browsin
 * **Student Number:** 241722063
 * **GCP Project ID:** project-83f3b203-b60d-481d-89d <br> <br>
 
-* **url**
-https://jdm-expo-frontend-app-626337737749.asia-south1.run.app
+
 
 # Get Started
 
